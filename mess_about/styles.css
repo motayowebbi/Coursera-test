@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    background-color: firebrick;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+ul :first-child {
+    margin-right: auto;
+}
+
+.logo {
+    max-width: 400px;
+    top: 0;
+
+}
+
+li {
+    list-style: none;
+    margin-right: 70px;
+    background-color: orange;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 10%;
+
+
+
+
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    right: 0;
+}

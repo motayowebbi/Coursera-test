@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
+:root {
+    --navtran: 300ms;
+    font-family: "barlow condensed";
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+li,
+a,
+button {
+    font-family: "barlow condensed", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10%;
+    background-color: rgb(235, 193, 58);
+    height: 20px;
+
+}
+
+.nav-logo {
+    color: wheat;
+    cursor: pointer;
+}
+
+.nav-list {
+    cursor: pointer;
+    display: flex;
+}
+
+.nav-list li {
+    padding: 1px 20px;
+    margin: 0px 10px;
+    border-radius: 50px;
+    transition-duration: var(--navtran);
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(235, 193, 58, 0);
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    transition-duration: var(--navtran);
+}
+
+.nav-list li:hover {
+    background-color: rgb(241, 72, 16);
+}
+
+button:hover {
+    background-color: rgb(241, 72, 16);
+}
+
+.nav-logo {
+    width: 130px;
+    padding-top: 80px;
+    margin-left: -30px;
+    transition: all, var(--navtran);
+}
+
+.nav-logo:hover {
+    scale: 1.2;
+}
+
+/* all code above for nav css*/
+
+.secwelcome {
+    font-size: 200px;
+    padding-top: 80px;
+    padding-left: 250px;
+    line-height: 190px;
+    background-color: rgb(119, 255, 210, 0.1);
+    height: 100vh;
+}
+
+.secto {
+    padding-left: 80px;
+    font-size: 140px;
+}
+
+.secinfen {
+    font-size: 200px;
+    padding-left: 80px;
+    color: rgb(241, 72, 16);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, rgb(255, 233, 124, 0.45) 70%, rgb(39, 39, 39))100%, url(images/blackwoman-back.jpeg) no-repeat center center / cover;
+}
